@@ -1,0 +1,330 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,
+            rgb(141, 8, 229) 0%,
+            rgb(141, 8, 229) 22%,
+            rgba(255, 255, 255, 0) 0%,
+            rgb(255, 255, 255) 100%);
+    box-sizing: border-box;
+    font-family: arial;
+    background-attachment: scroll;
+    width: 1024px;
+    height: 2700px;
+    line-height: 1.5;
+}
+
+.left {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(15, 15, 15, 0.683);
+    width: 100%;
+    height: 30px;
+    padding: 30px 10px;
+    top: -18px;
+}
+
+
+.navbar {
+    margin-left: 400px;
+    padding: 2px;
+    position: relative;
+    top: -75px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    width: auto;
+    font-size: 25px;
+    padding: 0 22px;
+    margin: auto;
+    letter-spacing: 1.5px;
+
+
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 1490px;
+    display: flex;
+    height: auto;
+}
+
+.right {
+    text-align: right;
+    margin-left: 700px;
+    padding: 2px 30px;
+    margin-top: -1.3cm;
+    border-radius: 10px 20px;
+}
+
+.navbar li:hover {
+    color: rgba(7, 20, 255, 0.6);
+}
+
+.mid {
+    position: relative;
+    margin: 100px;
+    font-size: x-large;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.logo{
+position: relative;
+float: right;
+bottom: 270px;
+border-radius: 75px;
+width: 450px;
+height: 350px;
+left: 450px;
+bottom: 320px;
+}
+
+#mypic1 {
+    position: relative;
+    float: right;
+    bottom: 270px;
+    border-radius: 75px;
+    width: 450px;
+    height: 350px;
+    left: 450px;
+}
+
+#mypic2 {
+    position: relative;
+    width: 458px;
+    height: 650px;
+    float: right;
+    bottom: 180px;
+    left: 300px;
+
+}
+
+#coat1 {
+    position: relative;
+    bottom: -230px;
+    left: 120px;
+    font-size: 40px;
+    font-family: Baloo Bhai;
+    color: #2C3333;
+}
+
+#coat2 {
+    position: relative;
+    bottom: -200px;
+    left: 120px;
+}
+
+.vision {
+    position: relative;
+    display: inline-block;
+    bottom: -210px;
+    left: 120px;
+    line-height: 15px;
+    text-transform: capitalize;
+    font-family: ballo bhai;
+}
+
+.mission {
+    position: relative;
+    bottom: -65px;
+    right: -450px;
+    line-height: 15px;
+    font-family: ballo bhai;
+    text-transform: capitalize;
+}
+
+.section-title {
+    position: relative;
+    float: center;
+    top: 290px;
+    left: 500px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(33, 45, 45);
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 210px 210px 80px;
+    grid-template-areas: "image""text""stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    top: 330px;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("/img/card1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    width: 400px;
+    height: 169px;
+}
+
+.card-text {
+    position: relative;
+    grid-area: text;
+    display: inline;
+    top: 200px;
+    right: 5px;
+   line-height: 15px;
+}
+
+.card-stats {
+    grid-area: stats;
+}
+
+#cre {
+    position: relative;
+    right: 110px;
+    font-size: 20px;
+    line-height:5px;
+}
+
+
+.card1 {
+    position: relative;
+    display: flex;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 210px 210px 80px;
+    grid-template-areas: "image""text""stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+  left: 250px;
+}
+
+.image1{
+    grid-area: image;
+    background: url("/img/card2.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    width: 400px;
+    height: 169px
+}
+  
+
+.card-text1{
+    position: relative;
+    grid-area: text;
+    display: inline;
+    top: 200px;
+    right: 5px;
+   line-height: 15px;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+
+#erc {
+    position: relative;
+    right: 80px;
+    font-size: 20px;
+    line-height:5px;
+}
+
+.card2 {
+    position: relative;
+    display: flex;
+    display: grid;
+    grid-template-rows: 300px;
+grid-template-columns: 210px 210px 80px;
+grid-template-areas: "image" "text" "stats";
+
+font-family: roboto;
+border-radius: 18px;
+background: white;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+text-align:center;
+width: 400px;
+height: 400px;
+left: 500px;
+}
+.image2{
+    grid-area: image;
+    background: url("/img/card3.2.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    width: 400px;
+    height: 169px
+}
+  
+
+.card-text2{
+    position: relative;
+    grid-area: text;
+    display: inline;
+    top: 200px;
+    right: 5px;
+   line-height: 15px;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+#srs {
+    position: relative;
+    left: 8px;
+    font-size: 20px;
+    line-height:20px;
+    text-transform: capitalize;
+   
+}
+
+
+.footer{
+    position: relative;
+    padding:10px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    width: 1498px;
+    height: 300px;
+    top: 650px;
+}
+
+#sd {
+    position: relative;
+    float: center;
+    left: 600px;
+text-transform: capitalize;
+}
+
+#st {
+    position: relative;
+    left: 100px;
+    text-transform: capitalize;
+}
+
+#rs {
+    position: relative;
+top: 570px;
+left: 500px;
+font-size: 20px;
+color:rgb(255, 255, 255);
+text-transform: capitalize;
+}
